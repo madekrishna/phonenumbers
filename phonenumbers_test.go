@@ -28,6 +28,10 @@ func TestParse(t *testing.T) {
 		{input: "967717105526", region: "YE", err: nil, expectedNum: 717105526},
 		{input: "+68672098006", region: "", err: nil, expectedNum: 72098006},
 		{input: "8409990936", region: "US", err: nil, expectedNum: 8409990936},
+		{input: "82165646580", region: "ID", err: nil, expectedNum: 82165646580},
+		{input: "+6282165646580", region: "ID", err: nil, expectedNum: 82165646580},
+		{input: "6282165646580", region: "ID", err: nil, expectedNum: 82165646580},
+		{input: "082165646580", region: "ID", err: nil, expectedNum: 82165646580},
 	}
 
 	for _, tc := range tests {

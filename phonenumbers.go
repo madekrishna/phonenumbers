@@ -2882,6 +2882,12 @@ func parseHelper(
 	numberToParse, defaultRegion string,
 	keepRawInput, checkRegion bool,
 	phoneNumber *PhoneNumber) error {
+	if strings.HasPrefix(numberToParse, "0") && defaultRegion == "ID" {
+		numberToParse = "+62" + numberToParse[1:]
+	} else if !(strings.HasPrefix(numberToParse, "8") || strings.HasPrefix(numberToParse, "+")) && defaultRegion == "ID" {
+		numberToParse = "+" + numberToParse
+	}
+
 	if len(numberToParse) == 0 {
 		return ErrNotANumber
 	} else if len(numberToParse) > MAX_INPUT_STRING_LENGTH {
