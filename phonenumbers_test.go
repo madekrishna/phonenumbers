@@ -31,7 +31,8 @@ func TestParse(t *testing.T) {
 		{input: "82165646580", region: "ID", err: nil, expectedNum: 82165646580},
 		{input: "+6282165646580", region: "ID", err: nil, expectedNum: 82165646580},
 		{input: "6282165646580", region: "ID", err: nil, expectedNum: 82165646580},
-		{input: "082165646580", region: "ID", err: nil, expectedNum: 82165646580},
+		{input: "+8617600690201", region: "ID", err: nil, expectedNum: 17600690201},
+		{input: "8617600690201", region: "ID", err: nil, expectedNum: 17600690201},
 	}
 
 	for _, tc := range tests {
@@ -1163,7 +1164,7 @@ func TestParsing(t *testing.T) {
 		{"+22658125926", "", "+22658125926"},
 		{"+2203693200", "", "+2203693200"},
 		{"0877747666", "ID", "+62877747666"},
-		{"62816640000", "ID", "+6262816640000"},
+		{"62816640000", "ID", "+62816640000"},
 		{"2349090000001", "NG", "+2349090000001"},
 		{"6282240080000", "ID", "+6282240080000"},
 	}
