@@ -1,12 +1,13 @@
-module github.com/nyaruka/phonenumbers
+module github.com/madekrishna/phonenumbers
 
 go 1.19
 
 require (
-	github.com/stretchr/testify v1.8.4
-	golang.org/x/exp v0.0.0-20231214170342-aacd6d4b4611
-	golang.org/x/text v0.14.0
-	google.golang.org/protobuf v1.31.0
+	github.com/nyaruka/phonenumbers v1.6.3
+	github.com/stretchr/testify v1.10.0
+	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394
+	golang.org/x/text v0.23.0
+	google.golang.org/protobuf v1.36.5
 )
 
 require (
