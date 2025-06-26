@@ -2883,13 +2883,8 @@ func parseHelper(
 	keepRawInput, checkRegion bool,
 	phoneNumber *PhoneNumber) error {
 	if strings.HasPrefix(numberToParse, "0") && defaultRegion == "ID" {
-		// To handle phone numbers in ID format without a country code, but with the use of the prefix 0
 		numberToParse = "+62" + numberToParse[1:]
-	} else if !strings.HasPrefix(numberToParse, "+") && strings.HasPrefix(numberToParse, "86") && defaultRegion == "ID" {
-		// To handle phone numbers for the country of China without using the plus sign
-		numberToParse = "+" + numberToParse
 	} else if !(strings.HasPrefix(numberToParse, "8") || strings.HasPrefix(numberToParse, "+")) && defaultRegion == "ID" {
-		// To handle phone number for the country of ID without using the plus sign
 		numberToParse = "+" + numberToParse
 	}
 
