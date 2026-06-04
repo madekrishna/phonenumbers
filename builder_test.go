@@ -3,7 +3,7 @@ package phonenumbers
 import (
 	"testing"
 
-	"github.com/nyaruka/phonenumbers/v2/internal/metadatabuilder"
+	"github.com/madekrishna/phonenumbers/internal/metadatabuilder"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

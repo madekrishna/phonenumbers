@@ -3,7 +3,7 @@ package geocoding
 import (
 	"testing"
 
-	"github.com/nyaruka/phonenumbers/v2"
+	"github.com/madekrishna/phonenumbers"
 )
 
 func TestGetDescriptionForNumber(t *testing.T) {

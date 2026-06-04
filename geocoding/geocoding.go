@@ -5,8 +5,8 @@ import (
 	"embed"
 	"strings"
 
-	"github.com/nyaruka/phonenumbers/v2"
-	"github.com/nyaruka/phonenumbers/v2/internal/prefixmapper"
+	"github.com/madekrishna/phonenumbers"
+	"github.com/madekrishna/phonenumbers/internal/prefixmapper"
 	"golang.org/x/text/language"
 	"golang.org/x/text/language/display"
 )

@@ -1,6 +1,6 @@
 package phonenumbers
 
-import "github.com/nyaruka/phonenumbers/v2/metadata"
+import "github.com/madekrishna/phonenumbers/metadata"
 
 // The metadata value types from upstream's Phonemetadata. Go's import-cycle rule
 // forces their definitions into the metadata package (its loader returns them and

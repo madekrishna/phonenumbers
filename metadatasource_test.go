@@ -3,7 +3,7 @@ package phonenumbers
 import (
 	"testing"
 
-	"github.com/nyaruka/phonenumbers/v2/metadata"
+	"github.com/madekrishna/phonenumbers/metadata"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"

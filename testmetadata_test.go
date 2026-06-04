@@ -18,8 +18,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/nyaruka/phonenumbers/v2/internal/metadatabuilder"
-	"github.com/nyaruka/phonenumbers/v2/metadata"
+	"github.com/madekrishna/phonenumbers/internal/metadatabuilder"
+	"github.com/madekrishna/phonenumbers/metadata"
 	"github.com/stretchr/testify/require"
 )
 

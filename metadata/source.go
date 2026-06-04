@@ -5,7 +5,7 @@ import (
 	_ "embed"
 	"errors"
 
-	"github.com/nyaruka/phonenumbers/v2/internal/serialize"
+	"github.com/madekrishna/phonenumbers/internal/serialize"
 	"google.golang.org/protobuf/proto"
 )
 

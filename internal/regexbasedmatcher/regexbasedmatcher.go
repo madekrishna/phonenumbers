@@ -7,8 +7,8 @@ package regexbasedmatcher
 import (
 	"regexp"
 
-	"github.com/nyaruka/phonenumbers/v2/internal/regexcache"
-	"github.com/nyaruka/phonenumbers/v2/metadata"
+	"github.com/madekrishna/phonenumbers/internal/regexcache"
+	"github.com/madekrishna/phonenumbers/metadata"
 )
 
 // MatchNationalNumber reports whether number (a string of decimal digits)

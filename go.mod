@@ -1,4 +1,4 @@
-module github.com/nyaruka/phonenumbers/v2
+module github.com/madekrishna/phonenumbers
 
 go 1.24.0
 

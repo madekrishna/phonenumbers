@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/nyaruka/phonenumbers/v2/internal/serialize"
+	"github.com/madekrishna/phonenumbers/internal/serialize"
 )
 
 // Mapper loads "<dir>/<language>.txt.gz" prefix maps from an embedded

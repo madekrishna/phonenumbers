@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nyaruka/phonenumbers/v2/metadata"
+	"github.com/madekrishna/phonenumbers/metadata"
 )
 
 func sp(value string) *string {
